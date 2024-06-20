@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>0620</title>
 </head>
 <body>
-    
+    <input type="text" id="taewoo" onkeydown="handleTyping()">
+    <script>
+        const handleTyping = () => {
+            const taewoo = document.getElementById('taewoo') 
+            console.log(taewoo.value) 
+        }
+    </script>
 </body>
 </html>
