@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 페이지</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <table>
+        <tr><h2>Login</h2></tr>
+        <tr>
+            <td><input type="text" placeholder="ID" id="login"></td>
+        </tr>
+        <tr>
+            <td><input type="password" placeholder="Passward" id="login1"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="정보 저장" class="btn" onclick="alert('회원 정보 저장됨')"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Sign up" class="btn" onclick="Login()"></td>
+        </tr>
+        <tr>
+            <td class="join"><a href="join.html">회원가입</a></td>
+        </tr>
+    </table>
+    <script>const Login = () => {
+        let login = document.getElementById('login');
+        let login1 = document.getElementById('login1'); 
+        console.log(login.value, login1.value);
+    }
+    </script>
+</body>
+</html>

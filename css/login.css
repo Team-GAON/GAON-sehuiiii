@@ -1,0 +1,37 @@
+table{
+    width: 250px;
+    height: 220px;
+    margin: auto;
+    font-size: 15px;
+
+}
+input[type="text"], input[type="password"] {
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: lightcyan ;
+}
+.btn {
+    width: 263px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(164, 199, 255);
+}
+.btn:active {
+    width: 263px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(61, 135, 255);
+}
